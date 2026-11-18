@@ -1,17 +1,17 @@
 # makefun-news-image-20261117
 
-![make.fun bounty](https://make.fun/badge/news-image-20261117.svg)
-![rank](https://make.fun/badge/news-image-20261117/mangyana1711/makefun-news-image-20261117/rank.svg)
-![reward](https://make.fun/badge/news-image-20261117/mangyana1711/makefun-news-image-20261117/reward.svg)
+[![make.fun · news-image-20261117](https://make.fun/badge/news-image-20261117.svg)](https://make.fun/bounty/news-image-20261117)
+[![rank](https://make.fun/badge/news-image-20261117/mangyana1711/makefun-news-image-20261117/rank.svg)](https://make.fun/bounty/news-image-20261117/leaderboard)
+[![reward](https://make.fun/badge/news-image-20261117/mangyana1711/makefun-news-image-20261117/reward.svg)](https://make.fun/bounty/news-image-20261117)
 
-A one-page illustrated newspaper front page summing up Tuesday 17 November 2026: 30 verified stories across 6 continents, with 12 featured stories illustrated by original flat vector-style drawings (drones over Bahrain, the damaged Crimea bridge, a carrier in the Gulf, the Asia summit, Japanese jets, a GPT-6.2 chip, and more), a dotted world map marking where each featured story happened, and an "Also on Tuesday 17 November" list for the remaining stories. Every story happened, or was first reported, on that day; disputed claims are attributed. All artwork is drawn in code with PIL — no AI-generated images, no photographs.
+An illustrated front page summing up Tuesday 17 November 2026 world news: 30 stories across 6 continents, with a world map marking where the day's biggest events happened — from the Iran drone strikes on a U.S. base in Bahrain and the damage to the Crimea bridge to the Trump–Xi–Putin Asia summit, Japan scrambling jets over a Russian incursion, and OpenAI shipping GPT-6.2 as Microsoft Ignite opens.
 
 ## Run it
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+python3 main.py
 ```
 
-This writes `out/entry.png` (1024×1024, under 1 MiB), decoded deterministically from `entry.png.b64`. Without `MAKEFUN_OUTPUT_DIR` it writes to `/output/entry.png` when `/output` exists, otherwise `./entry.png` next to the script.
+This decodes the bundled image and writes `entry.png` (1024×1024, under 1 MiB) to the output directory.
 
-Entered on make.fun
+Entered on [make.fun](https://make.fun).
